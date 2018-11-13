@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable swap
+
+[Service]
+Type=simple
+User=root
+ExecStart=/sbin/swapoff -a
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target

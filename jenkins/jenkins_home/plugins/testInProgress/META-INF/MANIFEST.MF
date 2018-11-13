@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: cedric
+Build-Jdk: 1.7.0_75
+Extension-Name: testInProgress
+Implementation-Title: testInProgress
+Implementation-Version: 1.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: testInProgress
+Long-Name: Test In Progress Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Test+In+Progress+Plugin
+Plugin-Version: 1.4
+Hudson-Version: 1.480
+Jenkins-Version: 1.480
+Plugin-Developers: Cedric Chabanois:cchabanois:cchabanois@gmail.com,Va
+ run Menon:menonvarun:mr.varun.menon@gmail.com
+

@@ -1,0 +1,14 @@
+[Unit]
+Description=kubectl proxy Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/kubectl --kubeconfig /etc/kubernetes/admin.conf proxy --port=8080 &
+Restart=always
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=multi-user.target
