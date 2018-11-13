@@ -1,1 +1,6 @@
 .vagrant
+credentials.conf
+
+jenkins/jenkins_home/*.log
+jenkins/jenkins_home/logs/*
+jenkins/jenkins_home/.owner
